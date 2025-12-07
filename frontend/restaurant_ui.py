@@ -8,7 +8,9 @@ from datetime import datetime
 import plotly.express as px  # For the pie chart
 
 
-API_BASE_URL = "http://127.0.0.1:8000"
+#API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = "https://hypermarket-inventory-production.up.railway.app"
+
 
 st.set_page_config(page_title="Hypermarket Inventory and Sales Management System", layout="wide")
 st.title("🛒 Hypermarket Inventory and Sales Management System")
@@ -385,4 +387,5 @@ elif section == "List & Charts 📊":
 
         else:
             st.warning("No data available to generate the selected chart.")
+
 
