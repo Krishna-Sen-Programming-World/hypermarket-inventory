@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+requests
+pandas
+plotly
+streamlit
+psycopg2  # For PostgreSQL
